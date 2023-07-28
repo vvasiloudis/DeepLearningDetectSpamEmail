@@ -1,1 +1,4 @@
 # DeepLearningDetectSpamEmail
+
+This code uses TensorFlow and BERT (Bidirectional Encoder Representations from Transformers) to train a binary classification model to detect email spam. The code starts by loading and preprocessing the data, where it discards some columns, renames the remaining columns, and downsamples the ham dataset to balance the data. It then uses the BERT model to encode the preprocessed text data and create a binary classification model. It also defines and compiles the model with accuracy, precision and recall measurements. Finally, the code trains the model and evaluates its performance using test data. It also provides some additional features such as generating a confusion matrix and classifying some sample emails as spam or ham using the trained model.
+Accuracy: 92.25%
